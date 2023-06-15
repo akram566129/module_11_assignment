@@ -1,0 +1,100 @@
+:root {
+  --colorPrimary:black;
+  --fontPrimary:1rem;
+}
+
+
+body {
+  font-family: sans-serif;
+  
+}
+
+h1 {
+  color: var(--colorPrimary);
+  background-color:gold;
+  font-size: 5px;
+  text-align: center;
+  padding:10px
+}
+
+
+p {
+  font-size:var(--fontPrimary);
+}
+
+ul li {
+  margin-left: 50%;
+}
+
+ul li:first-child{
+  color:crimson;
+}
+
+
+li {
+  margin-bottom: 2px;
+}
+
+img {
+  width: 25%;
+  height: 25%;
+  border-radius:10%;
+
+}
+
+table {
+  color:black;
+  border-collapse: collapse;
+  background-color:gold;
+  width: 100%;
+
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  background-color:cyan;
+  
+}
+
+table tr:hover{
+  background-color: chartreuse;
+}
+
+table tr td:nth-child(1) {
+  background-color: #e9e9e9;
+}
+
+table tr td:nth-child(2) {
+  background-color: hsl(0, 21%, 38%);
+}
+
+table tr td:nth-child(3) {
+  background-color: #e9f7e1;
+}
+
+table tr td:nth-child(4) {
+  background-color: #f5e6e8;
+}
+
+/* CSS Variables */
+
+/* Define a variable for the main text color */
+
+
+/* Define a variable for the heading font size */
+h1 {
+  font-size: var(--heading-font-size);
+}
+
+/* Define a variable for the table border color */
+table {
+  border-color: var(--table-border-color);
+}
+
+/* CSS Pseudo-classes and Box Model */
